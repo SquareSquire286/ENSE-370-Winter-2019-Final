@@ -1,4 +1,4 @@
-# ENSE 370 Winter 2020 Midterm Exam - Question 1
+# ENSE 370 Winter 2019 Final Exam - Question 1
 
 **PROMPT:** Consider a mobile MathSolver application that looks like that in Fig. Q1. It is able to solve various kinds of Math problems.
 
