@@ -2,7 +2,7 @@
 
 **PROMPT:** Consider a mobile MathSolver application that looks like that in Fig. Q1. It is able to solve various kinds of Math problems.
 
-<img src="q1Figure.png" width="500">
+<img src="q1Figure.png" width="300">
 
 This MathSolver application has the following functionalities:
 
