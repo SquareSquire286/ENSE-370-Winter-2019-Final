@@ -1,9 +1,3 @@
-/*
-
-Assume that all classes in your design in Part A have been implemented except the public class MathSolverDemo. Write the Java implementation of the MathSolverDemo class. In your main() method, you should create all the necessary object instances in your design, and then call the appropriate methods to (i) get user input, (ii) get an algorithm, (iii) solve the math problem, and (iv) update the display. State any other assumptions that you have made.
-
-*/
-
 public class MathSolverDemo
 {
     public static void main(String[] args)
