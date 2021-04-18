@@ -19,7 +19,8 @@ public abstract class Car
         System.out.println("Abstract Car");
     }
 }
-
+~~~~
+~~~~
 public class LargeHeavyCar extends Car
 {
     public LargeHeavyCar(int engineSize, int weight)
@@ -34,7 +35,8 @@ public class LargeHeavyCar extends Car
         System.out.println("Large Heavy Car");
     }
 }
-
+~~~~
+~~~~
 public class LargeLightCar extends Car
 {
     public LargeLightCar(int engineSize, int weight)
@@ -49,7 +51,8 @@ public class LargeLightCar extends Car
         System.out.println("Large Light Car");
     }
 }
-
+~~~~
+~~~~
 public class SmallLightCar extends Car
 {
     public SmallLightCar(int engineSize, int weight)
@@ -64,8 +67,8 @@ public class SmallLightCar extends Car
         System.out.println("Small Light Car");
     }
 }
-
-
+~~~~
+~~~~
 public class SmallHeavyCar extends Car
 {
     public SmallHeavyCar(int engineSize, int weight)
@@ -80,7 +83,8 @@ public class SmallHeavyCar extends Car
         System.out.println("Small Heavy Car");
     }
 }
-
+~~~~
+~~~~
 public class CarFactory()
 {
     public Car createCar(int engineSize, int weight)
@@ -102,3 +106,4 @@ public class CarFactory()
         }
     }
 }
+~~~~
