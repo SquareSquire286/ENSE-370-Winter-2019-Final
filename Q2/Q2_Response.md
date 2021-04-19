@@ -6,7 +6,7 @@ The code for the Car class is undesirable for three primary reasons:
 2. The `Car` class lacks an appropriate design pattern that would enable it to know its own weight class. The conditional logic in `printClassification()` reflects the class' lack of knowledge of its own weight, and is also overly complicated and difficult to read. Creating a `Car` hierarchy predicated on the Factory design pattern would alleviate the need for this conditional logic.
 3. Additionally, the conditional logic is unnecessarily repeated twice within the `printClassification()` method. Based on this repetition, it actually appears as if the `engineSize` attribute has no effect on the classification of `Car`. Instead, a `weight` greater than 1000 indicates a heavy `Car`, while a `weight` less than or equal to 1000 indicates a light `Car`. It would likely be more suitable to either remove the `engineSize` attribute, or create a four-subclass hierarchy that accommodates the attribute rather than the two-subclass hierarchy produced from `weight`.
 
-If I were to refactor this code, I would probably implement the following changes:
+If I were to refactor this code, I would implement the following changes:
 
 ~~~~
 public abstract class Car
