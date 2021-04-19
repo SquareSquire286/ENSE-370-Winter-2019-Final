@@ -12,7 +12,7 @@ PART C: Now write the use case description for the “View Account Balance” us
 
 PART D: Draw the software system context class diagram.
 
-PART E: Draw the object structuring diagram, including all external objects, boundary objects and internal objects. Hint: Notice that this is a state dependent system so you will need a <<state dependent control>> object. You will also need an <<entity>> object to store the account information (such as account number and balance). Include stereotypes for all your objects.
+PART E: Draw the object structuring diagram, including all external objects, boundary objects and internal objects. Hint: Notice that this is a state dependent system so you will need a "state dependent control" object. You will also need an "entity" object to store the account information (such as account number and balance). Include stereotypes for all your objects.
   
 PART F: The message sequence for the “Sign in” use case, which starts with input from the primary actor, the human user, is as follows:
 
